@@ -5,6 +5,8 @@ import React,{Component} from 'react';
 import NestedComponents from './Functional Components/NestedComponents';
 import NestedComponents1 from './Functional Components/NestedComponents1';
 import ClickEvent from './Functional Components/ClickEvent';
+import State from './Functional Components/State';
+import Counter from './Functional Components/Counter';
 
 class User1 extends Component{
   render(){
@@ -21,7 +23,9 @@ function App() {
       <User1/> */}
       {/* <NestedComponent/> */}
       {/* <NestedComponents1/> */}
-      <ClickEvent/>
+      {/* <ClickEvent/> */}
+      {/* <State/> */}
+      <Counter/>
     </div>
   );
 }
